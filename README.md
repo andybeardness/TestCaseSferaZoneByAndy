@@ -6,6 +6,7 @@
 
 - Модель Юзера : [User](https://github.com/andybeardness/TestCaseSferaZoneByAndy/blob/main/app/src/main/java/com/beardness/testcasesferazonebyandy/models/User.kt)
 - Главный Активити : [MainActivity](https://github.com/andybeardness/TestCaseSferaZoneByAndy/blob/main/app/src/main/java/com/beardness/testcasesferazonebyandy/ui/MainActivity.kt)
+- Unit-тест для Юзера : [UserUnitText](https://github.com/andybeardness/TestCaseSferaZoneByAndy/blob/main/app/src/test/java/com/beardness/testcasesferazonebyandy/UserUnitText.kt)
 
 В коде главного активити создаю восемь юзеров и добавляю в ArrayList. Четыре из которых старше 18 лет, а четыре младше:
 
