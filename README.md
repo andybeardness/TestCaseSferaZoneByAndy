@@ -33,7 +33,7 @@ val filteredUsers: ArrayList<User> = ArrayList(
                 userList.asSequence()
                     .filter { it.age >= 18 }
                     .toList()
-        )
+)
 ```
 
 Затем помещаю отфильтрованных юзеров в TextView :
