@@ -30,9 +30,9 @@ userList.add(User("Misha", 46))
 
 ```kotlin
 val filteredUsers: ArrayList<User> = ArrayList(
-                userList.asSequence()
-                    .filter { it.age >= 18 }
-                    .toList()
+  userList.asSequence()
+      .filter { it.age >= 18 }
+      .toList()
 )
 ```
 
